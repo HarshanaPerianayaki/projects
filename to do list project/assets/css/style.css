@@ -1,0 +1,52 @@
+body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;  
+            background-image: url(images0001.jpeg); 
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            width: 350px;
+            text-align: center;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #eee;
+            padding: 8px;
+            margin-top: 5px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .completed {
+            text-decoration: line-through;
+            color: grey;
+        }
+        button {
+            background: red;
+            color: white;
+            border: none;
+            padding: 5px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        .actions {
+            margin-top: 10px;
+        }
+        .clear-btn {
+            background: blue;
+            padding: 8px;
+        }
